@@ -1,0 +1,13 @@
+.footerArea {
+    height: 101px;
+    border-top: solid 0.5px #999999;
+    margin: 0 20px;
+}
+
+.copyright {
+    padding-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #999999;
+    text-align: center;
+}

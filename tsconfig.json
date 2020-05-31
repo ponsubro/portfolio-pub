@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es7",
+      "es2017"
+    ],
+    "module": "esnext",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "functions"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

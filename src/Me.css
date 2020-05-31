@@ -1,0 +1,255 @@
+.myContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.myImage {
+    width: 320px;
+    height: 488px;
+    border: solid 5px #364591;
+    background-color: #FFFFFF;
+    margin: 10px 10px 25px 10px;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.myProfName {
+    text-align: center;
+    font-size: 26px;
+    color: #364591;
+    padding: 5px 0 5px 0;
+    border-bottom: solid 2px #364591;
+    letter-spacing: 3px;
+}
+
+.designer {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.myPic {
+    height: 356px;
+    background-image: url(img/mypic.png);
+    background-size: cover;
+}
+
+.hobby {
+    border-top: solid 2px #364591;
+    position: relative;
+}
+
+.hb {
+    position: absolute;
+    left: -10px;
+    bottom: 9px;
+    text-align: center;
+    font-size: 18px;
+    color: #364591;
+    padding: 5px 0 5px 0;
+    border-bottom: solid 2px #364591;
+    letter-spacing: 4px;
+    transform:rotate(270deg);
+    width: 59px;
+}
+
+.hobbies {
+    margin-left: 39px;
+    color: #364591;
+    padding: 5px 5px 0px 5px;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.myMajor {
+    width: 320px;
+    height: 238px;
+    background-color: #F9E4E4;
+    padding-top: 5px;
+    margin: 10px 10px 25px 10px;
+}
+
+.myComment {
+    padding: 5px 20px;
+    line-height: 210%;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.myVision {
+    width: 320px;
+    height: 215px;
+    background-color: #D6EDEC;
+    margin: 10px 10px 25px 10px;
+    padding-top: 5px;
+}
+
+.myGoodAt {
+    width: 660px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid 5px #364591;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.myHistory {
+    width: 660px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #D6EDEC;
+}
+
+.hsColor {
+    text-align: center;
+    color: #364591;
+    font-size: 18px;
+    padding: 16px 0;
+}
+
+.hsText {
+    color: #414141;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    padding: 20px;
+    letter-spacing: 2px;
+    line-height: 210%;
+}
+
+.tokui {
+    background-color: #364591;
+    padding-top: 16px;
+    font-size: 18px;
+    color: #FFFFFF;
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fight {
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    font-size: 18px;
+    color: #364591;
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.topicLetter {
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.myStr {
+    color: #364591;
+    font-size: 23px;
+    margin: 15px auto;
+    padding: 10px 0px;
+    width: 280px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.myStrB {
+    color: #364591;
+    font-size: 23px;
+    margin: 15px auto 10px auto;
+    padding: 0 0 10px 0;
+    width: 280px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.radBorder {
+    border: solid 4px #364591;
+    border-radius: 15px;
+}
+
+.unBorder{
+    border-bottom: solid 3px #364591;
+}
+
+.myBox {
+    background-color: #364591;
+    border: solid 4px #FFFFFF;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 15.5px;
+    margin: 10px 6px 30px 6px;
+    padding: 15px 5px;
+    width: 100px;
+}
+
+.myBoxF {
+    background-color: #FFFFFF;
+    border: solid 4px #364591;
+    border-radius: 15px;
+    color: #364591;
+    font-size: 15.5px;
+    margin: 10px 6px 30px 6px;
+    padding: 15px 5px;
+    width: 100px;
+}
+
+.boxContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 681px) {
+
+    .myContainer {
+        width: 320px;
+        margin: auto;
+    }
+
+    .myImage {
+        width: 320px;
+        margin: 0;
+    }
+
+    .myMajor {
+        margin: 0;
+    }
+
+    .myVision {
+        margin: 0;
+    }
+    
+    .tokui {
+        width:310px;
+
+    }
+
+    .fight {
+        width: 310px;
+    }
+
+    .myGoodAt {
+        width: 320px;
+        margin: auto;
+    }
+
+    .myHistory {
+        width: 320px;
+    }
+
+  }
+

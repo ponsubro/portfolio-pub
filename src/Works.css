@@ -1,0 +1,17 @@
+.bannerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner {
+    max-width: 600px;
+    min-width: 260px;
+    margin: 20px 20px;
+}
+
+.banner img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
